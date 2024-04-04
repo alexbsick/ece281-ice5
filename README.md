@@ -27,3 +27,10 @@ env:
 If successful then GHDL will quietly exit with a `0` code.
 If any of the `assert` statements fail **with** `severity failure` then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels, such as "error" w
+
+## Waveform
+![Completed Elevator Controller Waveform](ECE281ICE5Waveform.png)
+
+## Documentation
+
+For this assignment, I worked with C3C Raj Raghulan in class and C3C Payton Nunn helped me fix a problem in my process in the elevator_component_fsm.vhd file
